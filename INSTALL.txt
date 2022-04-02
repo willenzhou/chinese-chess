@@ -1,0 +1,28 @@
+make build    -build the directory
+make test     -run test cases
+make play     -play the game (see the gui)
+make docs     -check documentation
+make clean    -clean previous builds
+
+When inside play, first enter the game mode. There are 6 options:
+player - user inputs move commands for both Chu and Han teams 
+easyai - user plays on Chu team against an easy difficulty ai
+mediumai - user plays on Chu team against a medium difficulty ai
+hardai - user plays on Chu team against a hard difficulty ai
+learn - contains information on the game and rules for moving each piece 
+puzzle # - 9 puzzles in total for the user to play
+
+There will be further instructions given in game.
+Make moves in format: move x1 y1 x2 y2 (move piece at x1 y1 to x2 y2)
+If move is invalid, the user will be prompted again
+
+Example of valid moves (execute them in the exact order as below):
+move 0 1 2 2
+move 9 4 8 4
+move 0 2 2 4
+
+To exit the game, type quit. 
+
+Note: If you are having trouble seeing the Chinese characters, you may need
+to install Traditional Chinese on your device as an input source
+for your keyboard.
